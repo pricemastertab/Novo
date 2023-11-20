@@ -1,0 +1,308 @@
+img {
+    font-size: 2vw;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+h1 {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    font-size: 3vw;
+    color: rgb(14, 255, 6);
+    transform: translateX(-50%);
+}
+
+.favela {
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    color: #141414;
+    font-size: 2.5vw;
+    transform: translateX(-50%);
+}
+
+canvas {
+    border-radius: 2vw;
+    background-color: #ffffff;
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    font-size: 1.5vw;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+input {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+    font-size: 1.5vw;
+}
+
+.game {
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    font-size: 2.5vw;
+    transform: translateX(-50%);
+}
+
+.you {
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    width: 30%;
+    height: 50px;
+    font-size: 1.5vw;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+}
+
+.you::placeholder {
+    color: black;
+}
+
+.Hgg {
+    position: absolute;
+    left: 48%;
+    top: 44%;
+    font-size: 2.5vw;
+}
+
+.parc {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    height: 50px;
+    width: 30%;
+    font-size: 1.5vw;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+}
+
+.parc::placeholder {
+    color: black;
+}
+
+button {
+    position: absolute;
+    left: 80%;
+    top: 75%;
+    border-radius: 2vw;
+    font-size: 30px;
+    background-color: #141414;
+    color: #001aff;
+}
+
+.canva {
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    font-size: 1vw;
+    height: 74%;
+    width: 25%;
+}
+
+.hzz {
+    position: absolute;
+    left: 85%;
+    top: 11%;
+    background-color: transparent;
+    font-size: 2.5vw;
+    color: #001aff;
+    width: 10%;
+}
+
+.parcela {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.nad {
+    color: #ffffff;
+    position: absolute;
+    left: 85%;
+    top: 21%;
+    font-size: 3.4vw;
+}
+
+.traba {
+    color: #001aff;
+    top: 34%;
+    left: 85%;
+    font-size: 2.9vw;
+}
+
+.trabal {
+    color: #ffffff;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    font-size: 3.4vw;
+}
+
+.pva {
+    position: absolute;
+    background-color: transparent;
+    left: 50%;
+    top: 26%;
+    width: 30%;
+    font-size: 1.5vw;
+    transform: translate(-50%, -50%);
+    height: 50px;
+}
+
+.master {
+    position: absolute;
+    background-color: transparent;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+}
+
+.pva::placeholder {
+    color: black;
+}
+
+.canvas {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    font-size: 1vw;
+    background-color: #ffffff;
+    background-color: transparent;
+    height: 74%;
+    width: 25%;
+}
+
+.texto {
+    position: absolute;
+    left: 12%;
+    color: #001aff;
+    font-size: 2.5vw;
+    top: 13%;
+}
+
+.juross {
+    position: absolute;
+    left: 12%;
+    top: 23%;
+    font-size: 3.4vw;
+}
+
+.blab {
+    position: absolute;
+    left: 12%;
+    top: 36%;
+    font-size: 2.9vw;
+}
+
+.ver {
+    position: absolute;
+    left: 12%;
+    top: 52%;
+    font-size: 2.9vw;
+}
+
+.bill {
+    position: absolute;
+    color: #141414;
+    left: 35%;
+    top: 80%;
+    font-size: 2.9vw;
+}
+
+.ultimo {
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    font-size: 3.4vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1.master {
+        font-size: 20px;
+    }
+
+    .pva,
+    .you,
+    .parc {
+        width: 80%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 80%;
+        font-size: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 75%;
+    }
+
+    .hzz,
+    .parcela,
+    .traba,
+    .trabal,
+    .nad,
+    .juross,
+    .texto,
+    .blab,
+    .ver,
+    .bill,
+    .ultimo {
+        position: absolute;
+        font-size: 25px;
+        top: 110%;
+    }
+
+    .texto {
+        transform: translate(0, -290%);
+    }
+
+    .juross {
+        transform: translate(0, -140%);
+    }
+
+    .blab {
+        transform: translate(0, -5%);
+    }
+
+    .ver {
+        transform: translate(0, 140%);
+    }
+
+    .hzz {
+        transform: translate(-160%, -290%);
+    }
+
+    .nad {
+        transform: translate(-60%, -140%);
+    }
+
+    .traba {
+        transform: translate(-70%, -5%);
+    }
+
+    .trabal {
+        transform: translate(-50%, 140%);
+    }
+}
+
+
+
+
+
